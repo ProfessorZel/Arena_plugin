@@ -1,0 +1,21 @@
+name: ArenaProZel
+main: ru.astakhovmd.Arena_plugin.Arena_plugin
+softdepend: [Essentials]
+author: ProfessorZel
+dev-url: https://astakhovmd.ru/
+loadbefore: []
+version: '1.0.0'
+api-version: '1.16'
+commands:
+  arena:
+    description: Main command of plugin. (arena.mod)
+    usage: /arena <subcommand>
+    aliases: []
+    permissions: arena.player
+permissions:
+  arena.player:
+    description: Allow to use basic arena functionality
+    default: false
+  arena.mod:
+    description: Allow to moderate arena
+    default: op
