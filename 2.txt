@@ -1,0 +1,34 @@
+use <arena_name>
+    set 
+        lobby
+        spec
+        kit
+        gm
+    sp
+	add
+	remove
+	list
+    rg 
+        point 1|2
+        apply
+        type CUBOID | CYLINDER | SPHERE
+    +open
+    /join
+    /spectate|spec
+    +pause
+    +end
+    +start
+    +kick
+ 
+    +status
+    /force <usr>
+    /forcespec <usr>
+    winner
++list
++join <arena_name>
++leave
++spectate|s|spec <arena_name>
+
++force <usr> <arena>
++forcespec <usr> <arena>
++reload

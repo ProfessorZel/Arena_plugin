@@ -1,2 +1,6 @@
 # Project exclude paths
 /out/
+/.idea/
+/PlayerFreeze.jar
+/paper-1.16.5-436.jar
+/patched_1.16.5.jar
